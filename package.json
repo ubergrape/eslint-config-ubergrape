@@ -1,0 +1,24 @@
+{
+  "name": "eslint-config-ubergrape",
+  "description": "Eslint configuration from Ubergrape.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Oleg Slobodskoi",
+    "email": "oleg008@gmail.com"
+  },
+  "dependencies": {
+    "eslint": "^0.24.1",
+    "eslint-config-airbnb": "^0.0.6",
+    "eslint-plugin-react": "^2.7.0"
+  },
+  "keywords": ["eslint", "config", "react", "jsx", "linter", "ubergrape"],
+  "license": "MIT",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:ubergrape/eslint-config.git"
+  },
+  "scripts": {
+    "test": "eslint ."
+  }
+}
