@@ -7,7 +7,6 @@
     "brace-style": [2, "stroustrup"],
     "no-use-before-define": [2, "nofunc"],
     "react/jsx-uses-react": 2,
-    //Temporarirly disabled due to a possible bug in babel-eslint
     "block-scoped-var": 0
   },
   "plugins": [
