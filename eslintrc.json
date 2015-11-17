@@ -4,7 +4,8 @@
     "semi": [2, "never"],
     "eqeqeq": [2, "smart"],
     "no-unexpected-multiline": 2,
-    "comma-dangle": [2, "never"]
+    "comma-dangle": [2, "never"],
+    "brace-style": [2, "stroustrup"]
   },
   "parser": "babel-eslint",
   "env": {
