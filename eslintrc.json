@@ -3,18 +3,11 @@
   "rules": {
     "semi": [2, "never"],
     "eqeqeq": [2, "smart"],
-    "no-eq-null": 0,
-    "brace-style": [2, "stroustrup"],
-    "no-use-before-define": [2, "nofunc"],
-    "react/jsx-uses-react": 2,
-    "block-scoped-var": 0,
-    "no-unexpected-multiline": 2
+    "no-unexpected-multiline": 2,
+    "comma-dangle": [2, "never"]
   },
-  "plugins": [
-    "react"
-  ],
+  "parser": "babel-eslint",
   "env": {
-    "browser": true,
     "mocha": true
   },
   "globals": {
