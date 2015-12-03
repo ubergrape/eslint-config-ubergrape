@@ -1,11 +1,12 @@
 {
   "extends": "eslint-config-airbnb",
   "rules": {
-    "semi": [2, "never"],
-    "eqeqeq": [2, "smart"],
-    "no-unexpected-multiline": 2,
+    "brace-style": [2, "stroustrup"],
     "comma-dangle": [2, "never"],
-    "brace-style": [2, "stroustrup"]
+    "eqeqeq": [2, "smart"],
+    "indent": [2, 2, {"SwitchCase": 1}],    
+    "no-unexpected-multiline": 2,
+    "semi": [2, "never"]
   },
   "parser": "babel-eslint",
   "env": {
