@@ -1,7 +1,7 @@
 {
   "name": "eslint-config-ubergrape",
   "description": "Eslint configuration from Ubergrape.",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "author": {
     "name": "Oleg Slobodskoi",
     "email": "oleg008@gmail.com"
