@@ -1,7 +1,7 @@
 {
   "name": "eslint-config-ubergrape",
   "description": "Eslint configuration from Ubergrape.",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "author": {
     "name": "Oleg Slobodskoi",
     "email": "oleg008@gmail.com"
@@ -10,7 +10,7 @@
     "eslint": "^1.9.0",
     "babel-eslint": "^4.1.5",
     "eslint-config-airbnb": "^1.0.0",
-    "eslint-plugin-react": "^3.9.0",
+    "eslint-plugin-react": "^5.0.1",
     "eslint-plugin-babel": "^2.1.1"
   },
   "keywords": [
