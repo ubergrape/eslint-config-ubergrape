@@ -6,6 +6,7 @@
     "indent": [2, 2, {"SwitchCase": 1}],
     "no-unexpected-multiline": 2,
     "semi": [2, "never"],
+    "object-curly-spacing": [2, "never"],
     "react/no-multi-comp": [2, {"ignoreStateless": true}]
   },
   "parser": "babel-eslint",
