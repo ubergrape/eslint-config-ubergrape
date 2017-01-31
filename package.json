@@ -7,11 +7,13 @@
     "email": "oleg008@gmail.com"
   },
   "peerDependencies": {
-    "eslint": "^1.9.0",
-    "babel-eslint": "^4.1.5",
-    "eslint-config-airbnb": "^1.0.0",
-    "eslint-plugin-react": "^5.0.1",
-    "eslint-plugin-babel": "^2.1.1"
+    "eslint": "^3.14.1",
+    "babel-eslint": "^7.1.1",
+    "eslint-config-airbnb": "^14.0.0",
+    "eslint-plugin-babel": "^2.1.1",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^3.0.2",
+    "eslint-plugin-react": "^6.9.0"
   },
   "keywords": [
     "eslint",
