@@ -4,18 +4,30 @@
     "babel"
   ],
   "rules": {
-    "comma-dangle": [2, "never"],
-    "eqeqeq": [2, "smart"],
-    "indent": [2, 2, {"SwitchCase": 1}],
-    "no-unexpected-multiline": 2,
-    "semi": [2, "never"],
-    "react/no-multi-comp": [2, {"ignoreStateless": true}],
-	"object-curly-spacing": 0,
-	"babel/object-curly-spacing": [2, "never"]
+    "comma-dangle": ["error", "never"],
+    "eqeqeq": ["error", "smart"],
+    "indent": ["error", 2, {"SwitchCase": 1}],
+    "no-unexpected-multiline": "error",
+    "semi": ["error", "never"],
+    "object-curly-spacing": "off",
+    "babel/object-curly-spacing": ["error", "never"],
+    "import/prefer-default-export": "off",
+    "no-plusplus": "off",
+    "import/extensions": "off",
+    "import/no-extraneous-dependencies": ["error", {
+      "devDependencies": ["**/tests/**", "**/*.test.js", "**/*.spec.js"]
+    }],
+    "react/no-multi-comp": ["error", {"ignoreStateless": true}],
+    "react/prop-types": ["error", {"skipUndeclared": true}],
+    "react/jsx-filename-extension": "off",
+    "react/forbid-prop-types": "off",
+    "react/prefer-stateless-function": "off",
+    "jsx-a11y/no-static-element-interactions": "off"
   },
   "parser": "babel-eslint",
   "env": {
-    "mocha": true
+    "mocha": true,
+    "browser": true
   },
   "globals": {
     "__DEV__": true,
