@@ -8,6 +8,7 @@
     "eqeqeq": ["error", "smart"],
     "indent": ["error", 2, {"SwitchCase": 1}],
     "no-unexpected-multiline": "error",
+    "multiline-ternary": ["error", "never"],
     "semi": ["error", "never"],
     "object-curly-spacing": "off",
     "babel/object-curly-spacing": ["error", "never"],
