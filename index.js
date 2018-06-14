@@ -16,7 +16,6 @@ module.exports = {
     ],
     'no-unexpected-multiline': 'error',
     'multiline-ternary': ['error', 'never'],
-    semi: ['error', 'never'],
     'import/prefer-default-export': 'off',
     'no-plusplus': 'off',
     'import/extensions': 'off',
