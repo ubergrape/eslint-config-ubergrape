@@ -1,4 +1,4 @@
-## Eslint config from ubergrape
+## Grape's ESLint configuration
 
 - Create a .eslintrc file
 - Put into it:
@@ -7,4 +7,3 @@
   "extend": "eslint-config-ubergrape"
 }
 ```
-- add all peerDependencies

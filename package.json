@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-ubergrape",
-  "description": "Eslint configuration from Ubergrape.",
+  "description": "Grape's ESLint configuration",
   "version": "5.0.0",
   "author": {
     "name": "Oleg Slobodskoi",
