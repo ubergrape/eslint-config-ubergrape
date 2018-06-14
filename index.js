@@ -5,7 +5,6 @@ module.exports = {
     'prettier/react',
   ],
   rules: {
-    'comma-dangle': ['error', 'never'],
     eqeqeq: ['error', 'smart'],
     indent: [
       'error',
