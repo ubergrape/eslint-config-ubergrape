@@ -1,8 +1,5 @@
 {
   "extends": "eslint-config-airbnb",
-  "plugins": [
-    "babel"
-  ],
   "rules": {
     "comma-dangle": [
       "error",
