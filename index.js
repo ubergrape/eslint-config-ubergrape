@@ -45,8 +45,9 @@ module.exports = {
   },
   parser: 'babel-eslint',
   env: {
-    mocha: true,
     browser: true,
+    jest: true,
+    node: true,
   },
   globals: {
     __DEV__: true,
