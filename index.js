@@ -18,12 +18,6 @@ module.exports = {
     'import/prefer-default-export': 'off',
     'no-plusplus': 'off',
     'import/extensions': 'off',
-    'import/no-extraneous-dependencies': [
-      'error',
-      {
-        devDependencies: ['**/tests/**', '**/*.test.js', '**/*.spec.js'],
-      },
-    ],
     'react/no-multi-comp': [
       'error',
       {
