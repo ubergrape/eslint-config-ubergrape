@@ -5,16 +5,6 @@ module.exports = {
     'prettier/react',
   ],
   rules: {
-    eqeqeq: ['error', 'smart'],
-    indent: [
-      'error',
-      2,
-      {
-        SwitchCase: 1,
-      },
-    ],
-    'no-unexpected-multiline': 'error',
-    'multiline-ternary': ['error', 'never'],
     'import/prefer-default-export': 'off',
     'no-plusplus': 'off',
     'import/extensions': 'off',
