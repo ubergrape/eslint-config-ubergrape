@@ -24,6 +24,13 @@ module.exports = {
     'react/forbid-prop-types': 'off',
     'react/prefer-stateless-function': ['error'],
     'jsx-a11y/no-static-element-interactions': 'off',
+    'jsx-a11y/anchor-is-valid': [
+      'error',
+      {
+        components: ['Link'],
+        specialLink: ['to'],
+      },
+    ],
     'no-console': 'error',
   },
   parser: 'babel-eslint',
